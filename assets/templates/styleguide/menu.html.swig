@@ -9,7 +9,7 @@
       <a href="/index.html" class="styleguide-menu-heading">Styleguide</a>
     </li>
 
-    <li>
+    <!-- <li>
       <span class="styleguide-menu-heading">Documentation</span>
       <ul>
         {% for doc in collections.docs %}
@@ -18,7 +18,7 @@
           </li>
         {% endfor %}
       </ul>
-    </li>
+    </li> -->
 
     <li>
       <a href="/atoms/" class="styleguide-menu-heading">Atoms</a>
