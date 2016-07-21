@@ -2,7 +2,7 @@
   "app": {
     "env": "dev",
     "basedir": "styleguide",
-    "ghpages": "sawi-specialiste"
+    "ghpages": "styleguide"
   },
   "vendors": {
     "css": [

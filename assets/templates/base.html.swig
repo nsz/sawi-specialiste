@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="/build/css/vendors.min.css">
     <link rel="stylesheet" href="/build/css/main.css">
 
+    <script src="https://use.typekit.net/tar2gdp.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
     <!--[if lt IE 9]>
       <script src="/build/js/polyfills.min.js"></script>
     <![endif]-->
