@@ -1,0 +1,11 @@
+{
+  "primary": [
+    {
+      "name": "$gray-base",
+      "hexa": "#1d1d1b"
+    },{
+      "name": "$brand-primary",
+      "hexa": "#ffe000"
+    }
+  ]
+}
