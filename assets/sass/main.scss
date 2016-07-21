@@ -6,11 +6,13 @@
 
 
 // atoms:
+@import 'atoms/typography';
 @import 'atoms/themify';
 @import 'atoms/button-link';
 @import 'atoms/button';
 
 // molecules:
+@import 'molecules/tags';
 @import 'molecules/mega-cta';
 @import 'molecules/jumbotron';
 @import 'molecules/header';

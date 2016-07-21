@@ -8,7 +8,7 @@ notes: |
   - **jumbo-title** - String
   - **jumbo-subtitle** - String
 ---
-<div class="jumbotron theme-strategie-digital">
+<div class="jumbotron-sawi theme-strategie-digital">
   <div class="container">
     <div class="row">
       <div class="col-sm-6 col-sm-push-6">
@@ -20,7 +20,7 @@ notes: |
           {% if jumbo-title %}
           {{jumbo-title}}
           {% else %}
-          Stratégie digitale
+          Spécialiste en stratégie digitale
           {% endif %}
           {% endspaceless %}
         </h1>
@@ -29,7 +29,7 @@ notes: |
           {% if jumbo-subtitle %}
           {{jumbo-subtitle}}
           {% else %}
-          Le "Digital Strategist", profil indispensable pour toute entreprise souhaitant intégrer le numérique dans sa stratégie d’entreprise, élément incontournable des départements du marketing, de la communication ou encore des ventes.
+          Une formation pour devenir un spécialiste du marketing digital au service de la réussite des entreprises, des marques et des produits.
           {% endif %}
           {% endspaceless %}
         </p>
