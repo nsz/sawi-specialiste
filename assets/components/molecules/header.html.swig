@@ -6,11 +6,20 @@ notes: |
   ##### Usage : `header`
 ---
 <header class="header">
-  <h1>
-    This is a header !
-    <div class="pull-right">
-      {% include '../atoms/button-link.html.swig' with {label: 'SAWI.com'} %}
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-5">
+        <img src="/build/img/logo.svg" alt="" style="max-height:60px;"/>
+      </div>
+      <div class="col-sm-7 text-right">
+        <h3 class="h5">
+          <strong class="h3">
+            Stratégie digitale
+          </strong>
+          <br/>
+          Les formation de spécialistes du <a href="http://www.sawi.com/fr/" target="_blank">SAWI.com</a>
+        </h3>
+      </div>
     </div>
-  </h1>
-
+  </div>
 </header>

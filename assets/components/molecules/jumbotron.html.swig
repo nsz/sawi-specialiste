@@ -8,7 +8,7 @@ notes: |
   - **title** - String
   - **subtitle** - String
 ---
-<div class="jumbotron">
+<div class="jumbotron theme-strategie-digital">
   <div class="container">
     <h1>
     {% spaceless %}

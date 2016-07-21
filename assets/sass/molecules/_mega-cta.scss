@@ -1,0 +1,15 @@
+@charset 'UTF-8';
+
+.fixed-cta{
+  border: 1px solid $gray-light;
+  background-color: white;
+  padding: 0.5em 1em;
+  position: fixed;
+  right: 0;
+  top: 50%;
+  @media screen and (max-width: $screen-xs-max) {
+    bottom: 0;
+    left: 0;
+    top: auto;
+  }
+}

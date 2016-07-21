@@ -21,8 +21,8 @@
   <div class="row">
     {% for color in data.colors.primary %}
     <div class="col-sm-6">
-      <div style="background: {{color.hexa}};"><br><br><br><br><br></div>
-      <div class="text-center well">
+      <div style="background: {{color.hexa}};"><br><br></div>
+      <div class="text-center well" style="padding:4px;">
         {{color.name}}
       </div>
     </div>

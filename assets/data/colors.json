@@ -6,6 +6,26 @@
     },{
       "name": "$brand-primary",
       "hexa": "#ffe000"
+    },
+    {
+      "name": "$strategie-digital",
+      "hexa": "#eeeeee"
+    },
+    {
+      "name": "$brand-design-management",
+      "hexa": "#ec6d71"
+    },
+    {
+      "name": "$marketing-operationnel",
+      "hexa": "#9dbdbb"
+    },
+    {
+      "name": "$retail-merchandising",
+      "hexa": "#8dafb7"
+    },
+    {
+      "name": "$media-planning",
+      "hexa": "#0ba2e5"
     }
   ]
 }
