@@ -53,16 +53,16 @@ notes: |
     </div>
   </div>
   <div class="row">
-    <div class="col-sm-12">
+    <div class="col-sm-10">
       <h2 class="fine-weight">Les formations de spécialistes</h2>
-    </div>
-  </div>
-  <div class="row">
-    {% for currentcours in data.cours %}
-      <div class="col-xs-6 col-sm-4 col-md-3">
-      {% include '../atoms/course-tile.html.swig' with {cours: currentcours} %}
+      <div class="row">
+        {% for currentcours in data.cours %}
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          {% include '../atoms/course-tile.html.swig' with {cours: currentcours} %}
+        </div>
+        {% endfor %}
       </div>
-    {% endfor %}
+    </div>
   </div>
 
 </div>
