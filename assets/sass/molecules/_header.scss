@@ -9,6 +9,12 @@ header {
   &:hover {
     color: $gray-base;
   }
+
+  img{
+    max-height: 0.8em;
+    float: right;
+    margin: 0.1em 0 0 0.2em;
+  }
 }
 
 .header-container {
@@ -21,4 +27,5 @@ h3.header-title {
   line-height: 1em;
   margin: 0 0 0 1em;
   padding: 0;
+  min-width: 7em;
 }
