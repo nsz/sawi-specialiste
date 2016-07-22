@@ -4,6 +4,8 @@ name: header
 collection: molecules
 notes: |
   ##### Usage : `header`
+  ##### Options :
+  - **cours** - object
 ---
 <header class="header">
   <div class="container">
@@ -14,7 +16,13 @@ notes: |
       <div class="col-sm-7 text-right">
         <h3 class="h5">
           <strong class="h3">
-            Stratégie digitale
+            {% spaceless %}
+            {% if cours.title %}
+            {{cours.title}}
+            {% else %}
+            This is a title
+            {% endif %}
+            {% endspaceless %}
           </strong>
           <br/>
           Les formation de spécialistes du <a href="http://www.sawi.com/fr/" target="_blank">SAWI.com</a>

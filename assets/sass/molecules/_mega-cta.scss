@@ -1,14 +1,26 @@
 @charset 'UTF-8';
 
 .fixed-cta{
-  background-color: white;
-  padding: 0.5em 1em;
+  background-color: rgba(255,255,255,0.8);
   position: fixed;
   right: 0;
   bottom: 0;
+  left: 0;
   @media screen and (max-width: $screen-xs-max) {
-    bottom: 0;
-    left: 0;
-    top: auto;
+
   }
+}
+.fixed-cta-container{
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-end;
+  .btn{
+    margin-left: 0.4em;
+  }
+  small{
+    text-align: right;
+  }
+}
+body{
+  padding-bottom: 4em;
 }

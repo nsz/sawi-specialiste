@@ -5,16 +5,14 @@ collection: molecules
 notes: |
   ##### Usage : `tags`
   ##### Options :
-  - **option** - Type
+  - **tag-label** - string
 ---
-
-<span class="label label-default">Culture digitale &amp; e-marketing</span>
-<span class="label label-default">Gestion de projet</span>
-<span class="label label-default">Stratégie de Contenu</span>
-<span class="label label-default">Référencement et ranking</span>
-<span class="label label-default">E-mailing</span>
-<span class="label label-default">Big data &amp; analytics</span>
-<span class="label label-default">Veille</span>
-<span class="label label-default">Médias Sociaux</span>
-<span class="label label-default">E-commerce</span>
-<span class="label label-default">Planification &amp; achat média</span>
+<span class="label label-default">
+  {% spaceless %}
+  {% if tag-label %}
+  {{tag-label}}
+  {% else %}
+  Culture digitale &amp; e-marketing
+  {% endif %}
+  {% endspaceless %}
+</span>

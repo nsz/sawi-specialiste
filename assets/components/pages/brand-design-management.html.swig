@@ -1,11 +1,11 @@
 ---
-title: strategie-digitale
-name: strategie-digitale
+title: brand-design-management
+name: brand-design-management
 collection: pages
 styleguide: false
 layout: page.html.swig
 ---
-{% set cours = data.cours.strategiedigital %}
+{% set cours = data.cours.branddesignmanagement %}
 
 {% include '../molecules/header.html.swig'  with {cours: cours} %}
 {% include '../molecules/jumbotron.html.swig' with {cours: cours} %}

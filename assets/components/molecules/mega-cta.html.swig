@@ -5,11 +5,13 @@ collection: molecules
 notes: |
   ##### Usage : `mega-cta`
   ##### Options :
-  - **option** - Type
+  - **url** - string
 ---
 <div class="fixed-cta">
-  <a href="#" class="btn btn-danger btn-lg">Intéressé ?</a>
-  <p>
-    <small>Recevez le dossier complet par email</small>
-  </p>
+  <div class="container">
+    <p class="fixed-cta-container">
+      <small>Recevez le dossier complet par email</small>
+      <a href="#URL" class="btn btn-primary btn-lg">Intéressé ?</a>
+    </p>
+  </div>
 </div>

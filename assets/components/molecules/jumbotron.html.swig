@@ -5,31 +5,34 @@ collection: molecules
 notes: |
   ##### Usage : `jumbotron`
   ##### Options :
-  - **jumbo-title** - String
-  - **jumbo-subtitle** - String
+  - **cours** - object
 ---
-<div class="jumbotron-sawi theme-strategie-digital">
+<div class="jumbotron-sawi {% if cours.colortheme %}{{ cours.colortheme }}{% endif %}">
   <div class="container">
-    <div class="row">
-      <div class="col-sm-6 col-sm-push-6">
+    <div class="jumbotron-sawi-container">
+      <div class="jumbotron-sawi-picture">
+        {% if cours.illustration %}
+        <img src="{{ cours.illustration }}" alt="" width="100%"/>
+        {% else %}
         <img src="/build/img/cover-Strategie-Digitale.png" alt="" width="100%"/>
+        {% endif %}
       </div>
-      <div class="col-sm-6 col-sm-pull-6">
-        <h1>
+      <div class="jumbotron-sawi-intro">
+        <h1 class="jumbotron-sawi-h1">
           {% spaceless %}
-          {% if jumbo-title %}
-          {{jumbo-title}}
+          {% if cours.title %}
+          {{cours.title}}
           {% else %}
-          Spécialiste en stratégie digitale
+          This is a title
           {% endif %}
           {% endspaceless %}
         </h1>
-        <p>
+        <p class="jumbotron-sawi-p">
           {% spaceless %}
-          {% if jumbo-subtitle %}
-          {{jumbo-subtitle}}
+          {% if cours.subtitle %}
+          {{cours.subtitle}}
           {% else %}
-          Une formation pour devenir un spécialiste du marketing digital au service de la réussite des entreprises, des marques et des produits.
+          This is a subtitle
           {% endif %}
           {% endspaceless %}
         </p>
