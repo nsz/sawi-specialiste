@@ -10,7 +10,7 @@ notes: |
 <div class="fixed-cta">
   <div class="container">
     <p class="fixed-cta-container">
-      <small>Recevez le dossier complet par email</small>
+      <span class="fixed-cta-legend">Recevez le dossier complet par email</span>
       <a href="#URL" class="btn btn-primary btn-lg">Intéressé ?</a>
     </p>
   </div>

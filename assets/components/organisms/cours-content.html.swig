@@ -27,8 +27,8 @@ notes: |
   <div class="row">
     <div class="col-sm-10">
       <h3>Vidéo de présentation</h3>
-      <div class="video">
-        <iframe src="{{ cours.video }}" width="100%" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+      <div class="video embed-responsive embed-responsive-16by9">
+        <iframe src="{{ cours.video }}" class="embed-responsive-item" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
       </div>
     </div>
   </div>
@@ -38,14 +38,18 @@ notes: |
     <table class="table table-striped">
       {% for info in cours.infos %}
       <tr>
-        <td><strong>{{info.label}}</strong></td>
+        <td class="text-right table-label"><strong>{{info.label}}</strong></td>
         <td>
           {{info.value|raw}}
         </td>
       </tr>
       {% endfor %}
     </table>
-
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-10">
+      <img src="{{ cours.illustrationseparator }}" alt="" style="max-width:100%;" width="100%"/>
     </div>
   </div>
 </div>

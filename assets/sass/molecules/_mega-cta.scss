@@ -6,6 +6,7 @@
   bottom: 0;
   left: 0;
   background-color: rgba(255, 255, 255, 0.8);
+  background: linear-gradient(0deg, white, rgba(255, 255, 255, 0));
   @media screen and (max-width: $screen-xs-max) {
   }
 }
@@ -19,8 +20,9 @@
     margin-left: 0.4em;
   }
 
-  small {
+  .fixed-cta-legend {
     text-align: right;
+    text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.4);
   }
 }
 

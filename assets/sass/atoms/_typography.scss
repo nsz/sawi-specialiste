@@ -65,3 +65,11 @@ p, abbr, cite, li { font-size: $font-size-base; }
     }
   }
 }
+
+.table-label {
+  min-width: 30%;
+  strong {
+    display: inline-block;
+    padding-right: 0.6em;
+  }
+}
