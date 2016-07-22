@@ -52,4 +52,17 @@ notes: |
       <img src="{{ cours.illustrationseparator }}" alt="" style="max-width:100%;" width="100%"/>
     </div>
   </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <h2 class="fine-weight">Les formations de spécialistes</h2>
+    </div>
+  </div>
+  <div class="row">
+    {% for currentcours in data.cours %}
+      <div class="col-xs-6 col-sm-4 col-md-3">
+      {% include '../atoms/course-tile.html.swig' with {cours: currentcours} %}
+      </div>
+    {% endfor %}
+  </div>
+
 </div>

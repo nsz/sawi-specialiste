@@ -1,0 +1,23 @@
+@charset 'UTF-8';
+
+
+.course-tile {
+  min-height: 8em;
+  padding: 0.5em;
+  padding-right: 30%;
+  margin-bottom: 1em;
+  font-size: 1.1em;
+  line-height: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+  &:hover {
+
+  }
+
+  &.theme-strategie-digital { background-image: url('../img/tile-Strategie-Digitale.png'); }
+  &.theme-brand-design-management { background-image: url('../img/tile-Brand-Design-Management.png'); }
+  &.theme-marketing-operationnel { background-image: url('../img/tile-Marketing-Operationnel.png'); }
+  &.theme-retail-merchandising { background-image: url('../img/tile-Retail-Merchandising.png'); }
+  &.theme-media-planning { background-image: url('../img/tile-Media-planning.png'); }
+}
