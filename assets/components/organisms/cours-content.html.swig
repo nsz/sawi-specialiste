@@ -13,9 +13,9 @@ notes: |
   <div class="row">
     <div class="col-sm-5">
       <h3>Objectifs</h3>
-      <p>
+      <h4 class="fine-weight">
         {{ cours.objectif }}
-      </p>
+      </h4>
     </div>
     <div class="col-sm-5">
       <h3>Thèmes abordés</h3>

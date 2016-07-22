@@ -5,11 +5,11 @@ $brand-info:            #5bc0de !default;
 $brand-warning:         #f0ad4e !default;
 $brand-danger:          #d9534f !default;
 
-$gray-darker:            lighten($gray-base, 13.5%) !default; // #222
-$gray-dark:              lighten($gray-base, 20%) !default;   // #333
-$gray:                   lighten($gray-base, 33.5%) !default; // #555
-$gray-light:             lighten($gray-base, 46.7%) !default; // #777
-$gray-lighter:           lighten($gray-base, 80%) !default; // #eee
+$gray-darker:            lighten($gray-base, 13.5%) !default;
+$gray-dark:              lighten($gray-base, 20%) !default;
+$gray:                   lighten($gray-base, 33.5%) !default;
+$gray-light:             lighten($gray-base, 46.7%) !default;
+$gray-lighter:           #eee !default;
 
 $strategie-digital:           #eeeeee;
 $brand-design-management:     #ec6d71;
@@ -21,7 +21,19 @@ $btn-primary-color:              $gray-base !default;
 $btn-primary-bg:                 $brand-primary !default;
 $btn-primary-border:             $brand-primary !default;
 
+$text-color:            $gray-base !default;
+
+$font-family-sans-serif:  "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-size-base:          20px !default;
+
 //** Global textual link color.
 $link-color:            $brand-info !default;
 //** Link hover color set via `darken()` function.
 $link-hover-color:      darken($link-color, 15%) !default;
+
+//** Default label background color
+$label-default-bg:   $gray-lighter;
+//** Default label text color
+$label-color:                 $gray-base !default;
+//** Default text color of a linked label
+$label-link-hover-color:      $gray-base !default;

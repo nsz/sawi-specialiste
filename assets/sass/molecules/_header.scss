@@ -1,5 +1,24 @@
 @charset 'UTF-8';
 
 header {
-  padding: 1em 0 0;
+  // padding: 1em 0 0;
+}
+.header-link {
+  color: $gray-base;
+
+  &:hover {
+    color: $gray-base;
+  }
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h3.header-title {
+  line-height: 1em;
+  margin: 0 0 0 1em;
+  padding: 0;
 }
