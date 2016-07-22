@@ -1,26 +1,29 @@
 @charset 'UTF-8';
 
-.fixed-cta{
-  background-color: rgba(255,255,255,0.8);
+.fixed-cta {
   position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
+  background-color: rgba(255, 255, 255, 0.8);
   @media screen and (max-width: $screen-xs-max) {
-
   }
 }
-.fixed-cta-container{
+
+.fixed-cta-container {
   display: flex;
   align-items: baseline;
   justify-content: flex-end;
-  .btn{
+
+  .btn {
     margin-left: 0.4em;
   }
-  small{
+
+  small {
     text-align: right;
   }
 }
-body{
+
+body {
   padding-bottom: 4em;
 }
