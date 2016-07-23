@@ -64,9 +64,10 @@
             },
             {
                 "label": "Fiche détaillée",
-                "value": "<a href='http://www.sawi.com/fr/formations/web/specialiste-en-strategie-digitale/' target='_blank'>http://www.sawi.com/...en-strategie-digitale/</a>"
+                "value": "<a href='http://www.sawi.com/fr/formations/web/specialiste-en-strategie-digitale/' target='_blank'>sawi.com/...en-strategie-digitale/</a>"
             }
-        ]
+        ],
+        "sawiurl": "http://www.sawi.com/fr/formations/web/specialiste-en-strategie-digitale/"
     },
     "branddesignmanagement": {
         "title": "Spécialiste en Brand Design Management",
@@ -80,7 +81,7 @@
         "video": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fsawi.suisse%2Fvideos%2F1138044222946396%2F&show_text=0&width=560",
         "themes": [
             {
-                "item": "Exploration de l’univers et de l’histoire du design"
+                "item": "L’univers et de l’histoire du design"
             },
             {
                 "item": "Les métiers du design"
@@ -89,19 +90,16 @@
                 "item": "Le design, l’émotionnel et l’expérientiel"
             },
             {
-                "item": "Créer la bonne stratégie design"
+                "item": "La bonne stratégie design"
             },
             {
-                "item": "Imaginer et projeter un business plan"
+                "item": "Le business plan"
             },
             {
-                "item": "Design et développement durable"
+                "item": "Le développement durable"
             },
             {
-                "item": "Design et communication et storytelling"
-            },
-            {
-                "item": "Manager le design au service de toute l’entreprise"
+                "item": "La communication et storytelling"
             }
         ],
         "infos": [
@@ -127,9 +125,10 @@
             },
             {
                 "label": "Fiche détaillée",
-                "value": "<a href='http://www.sawi.com/fr/formations/marketing/brand-design-management/' target='_blank'>http://www.sawi.com/fr/.../brand-design-management/</a>"
+                "value": "<a href='http://www.sawi.com/fr/formations/marketing/brand-design-management/' target='_blank'>sawi.com/fr/.../brand-design-management/</a>"
             }
-        ]
+        ],
+        "sawiurl": "http://www.sawi.com/fr/formations/marketing/brand-design-management/"
     },
     "mediaplanning": {
         "title": "Spécialiste en Media Planning",
@@ -143,46 +142,49 @@
         "video": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fsawi.suisse%2Fvideos%2F1147404728677012%2F&show_text=0&width=560",
         "themes": [
             {
-                "item": "Acteurs, rôles et métiers"
+                "item": "Les Acteurs, rôles et métiers"
             },
             {
                 "item": "Le paysage media Suisse"
             },
             {
-                "item": "Les fondamentaux du média planning et de sa culture"
+                "item": "La stratégie média performante."
             },
             {
-                "item": "Les étapes clés d’une stratégie média performante."
+                "item": "L'analyse de la cible"
             },
             {
-                "item": "Analyse de la cible et choix des publics-cibles"
+                "item": "Le choix des publics-cibles"
             },
             {
-                "item": "Analyse du marché"
+                "item": "L'analyse du marché"
             },
             {
-                "item": "Détermination des objectifs média"
+                "item": "Les objectifs média"
             },
             {
-                "item": "Choix des supports"
+                "item": "Le choix des supports"
             },
             {
-                "item": "Optimisation des moyens"
+                "item": "L'optimisation des moyens"
             },
             {
-                "item": "Les outils d’aide à la décision et les outils d’évaluation"
+                "item": "Les outils"
             },
             {
-                "item": "Elaborer un plan de campagne"
+                "item": "Le plan de campagne"
             },
             {
-                "item": "Etablir un plan média, suivi et analyse des performances / qualité de l’achat"
+                "item": "Le plan média / qualité de l’achat"
+            },
+            {
+                "item" : "Le suivi et l'analyse des performances"
             },
             {
                 "item": "Suivi budgétaire"
             },
             {
-                "item": "Préparer et gérer un pitch d’agence"
+                "item": "Le pitch d’agence"
             }
         ],
         "infos": [
@@ -208,11 +210,12 @@
             },
             {
                 "label": "Fiche détaillée",
-                "value": "<a href='http://www.sawi.com/fr/formations/web/specialiste-en-media-planning/' target='_blank'>http://www.sawi.com/fr/.../specialiste-en-media-planning/</a>"
+                "value": "<a href='http://www.sawi.com/fr/formations/web/specialiste-en-media-planning/' target='_blank'>sawi.com/fr/.../specialiste-en-media-planning/</a>"
             }
-        ]
+        ],
+        "sawiurl": "http://www.sawi.com/fr/formations/web/specialiste-en-media-planning/"
     },
-    "marketingoperationel": {
+    "marketingoperationnel": {
         "title": "Spécialiste en Marketing Opérationnel",
         "subtitle": "Une vision complète, pratique et professionnelle de tout ce que le marketing opérationnel peut apporter aux développements des entreprises en les rapprochant des consommateurs.",
         "illustration": "/build/img/cover-Marketing-Operationnel.png",
@@ -224,34 +227,31 @@
         "video": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fsawi.suisse%2Fvideos%2F1141635975920554%2F&show_text=0&width=560",
         "themes": [
             {
-                "item": "Le marché Suisse, la distribution, les différents acteurs et les partenaires"
+                "item": "Le marché Suisse"
             },
             {
-                "item": "La communication 360° et la place du marketing opérationnel"
+                "item": "La distribution"
             },
             {
-                "item": "Le rôle stratégique du Marketing opérationnel"
+                "item": "La communication 360°"
             },
             {
-                "item": "La conception d’une campagne, les pièges à éviter et les best practices"
+                "item": "La conception d’une campagne"
             },
             {
-                "item": "les budgets et les coûts"
+                "item": "les budgets"
             },
             {
                 "item": "la logistique"
             },
             {
-                "item": "l’adaptation régionale et linguistique"
+                "item": "l’adaptation régionale"
             },
             {
-                "item": "les outils de mesure de la performance"
+                "item": "les outils de mesure"
             },
             {
-                "item": "Les outils du marketing opérationnel."
-            },
-            {
-                "item": "Relais et activations digitales (Buzz, viralisation et autres solutions de dissémination de retombées."
+                "item": "Les relais et activations digitales"
             }
         ],
         "infos": [
@@ -277,9 +277,10 @@
             },
             {
                 "label": "Fiche détaillée",
-                "value": "<a href='http://www.sawi.com/fr/formations/vente/marketing-operationnel/' target='_blank'>http://www.sawi.com/fr/.../marketing-operationnel/</a>"
+                "value": "<a href='http://www.sawi.com/fr/formations/vente/marketing-operationnel/' target='_blank'>sawi.com/fr/.../marketing-operationnel/</a>"
             }
-        ]
+        ],
+        "sawiurl": "http://www.sawi.com/fr/formations/vente/marketing-operationnel/"
     },
     "retailmerchandising": {
         "title": "Spécialiste en Retail & Merchandising",
@@ -293,25 +294,28 @@
         "video": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fsawi.suisse%2Fvideos%2F1144035369013948%2F&show_text=0&width=560",
         "themes": [
             {
-                "item": "Comprendre le client et la marque à l’ère de l’omni-canal"
+                "item": "Le client et la marque"
             },
             {
-                "item": "L’architecture commerciale, l’organisation des offres pour rythmer et cadencer l’expérience consommateur"
+                "item": "L’architecture commerciale"
             },
             {
-                "item": "Les vitrines et les scénographies intérieures"
+                "item": "L’organisation des offres"
             },
             {
-                "item": "Les lieux connectés et l’enrichissement de l’expérience par le digital"
+                "item": "Les vitrines"
             },
             {
-                "item": "Le visuel merchandising pour animer et fédérer"
+                "item": "Les lieux connectés"
             },
             {
-                "item": "Le merchandising de l’achat pour rationaliser les offres"
+                "item": "Le visuel merchandising"
             },
             {
-                "item": "L’animation retail pour fédérer les équipes et développer les résultats"
+                "item": "Le merchandising"
+            },
+            {
+                "item": "L’animation retail"
             }
         ],
         "infos": [
@@ -337,8 +341,9 @@
             },
             {
                 "label": "Fiche détaillée",
-                "value": "<a href='http://www.sawi.com/fr/formations/vente/specialiste-retail-merchandising/' target='_blank'>http://www.sawi.com/fr/.../specialiste-retail-merchandising/</a>"
+                "value": "<a href='http://www.sawi.com/fr/formations/vente/specialiste-retail-merchandising/' target='_blank'>sawi.com/fr/.../specialiste-retail-merchandising/</a>"
             }
-        ]
+        ],
+        "sawiurl": "http://www.sawi.com/fr/formations/vente/specialiste-retail-merchandising/"
     }
 }

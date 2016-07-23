@@ -1,11 +1,11 @@
 ---
-title: marketing-operationel
-name: marketing-operationel
+title: marketing-operationnel
+name: marketing-operationnel
 collection: pages
 styleguide: false
 layout: page.html.swig
 ---
-{% set cours = data.cours.marketingoperationel %}
+{% set cours = data.cours.marketingoperationnel %}
 
 {% include '../molecules/header.html.swig'  with {cours: cours} %}
 {% include '../molecules/jumbotron.html.swig' with {cours: cours} %}

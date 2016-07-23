@@ -10,6 +10,10 @@ $gray-dark:              lighten($gray-base, 20%) !default;
 $gray:                   lighten($gray-base, 33.5%) !default;
 $gray-light:             lighten($gray-base, 46.7%) !default;
 $gray-lighter:           #eee !default;
+$white:                  #fff;
+$white-alpha-80:         rgba(255, 255, 255, 0.8);
+$white-alpha-40:         rgba(255, 255, 255, 0.4);
+$white-alpha-0:          rgba(255, 255, 255, 0);
 
 $strategie-digital:           #eeeeee;
 $brand-design-management:     #ec6d71;

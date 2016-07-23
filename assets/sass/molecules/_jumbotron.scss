@@ -1,28 +1,31 @@
 @charset 'UTF-8';
 
 @media only screen and (min-width: $screen-sm-min) {
-  .jumbotron-sawi {
-  }
   .jumbotron-sawi-container {
     display: flex;
     align-items: center;
     min-height: 70vh;
   }
+
   .jumbotron-sawi-picture {
     order: 1;
   }
-  .jumbotron-sawi-intro {
-  }
 }
 
-.jumbotron-sawi-p { margin-bottom: 20px; }
-.jumbotron-sawi-h1 { margin-top: 20px; }
+.jumbotron-sawi-p {
+  margin-bottom: 20px;
+}
+
+.jumbotron-sawi-h1 {
+  margin-top: 20px;
+}
 
 @media only screen and (min-height: 30em) {
   .jumbotron-sawi-h1 {
     font-size: 9vh;
-    line-height: 8.3vh;
+    line-height: 8.8vh;
   }
+
   .jumbotron-sawi-p {
     margin-top: 1em;
     font-size: 3.5vh;

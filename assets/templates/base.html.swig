@@ -16,7 +16,6 @@
       <link rel="stylesheet" href="/build/css/styleguide.css">
     {% endif %}
 
-    <link rel="stylesheet" href="/build/css/vendors.min.css">
     <link rel="stylesheet" href="/build/css/main.css">
 
     <script src="https://use.typekit.net/tar2gdp.js"></script>

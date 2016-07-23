@@ -1,7 +1,36 @@
 @charset 'UTF-8';
 
-.theme-strategie-digital, a.theme-strategie-digital, a.theme-strategie-digital:hover { background-color: $strategie-digital; color: $gray-base; }
-.theme-brand-design-management, a.theme-brand-design-management, a.theme-brand-design-management:hover { background-color: $brand-design-management; color: white; }
-.theme-marketing-operationnel, a.theme-marketing-operationnel, a.theme-marketing-operationnel:hover { background-color: $marketing-operationnel; color: white; }
-.theme-retail-merchandising, a.theme-retail-merchandising, a.theme-retail-merchandising:hover { background-color: $retail-merchandising; color: white; }
-.theme-media-planning, a.theme-media-planning, a.theme-media-planning:hover { background-color: $media-planning; color: white; }
+.theme-strategie-digital,
+a.theme-strategie-digital,
+a.theme-strategie-digital:hover {
+  background-color: $strategie-digital;
+  color: $gray-base;
+}
+
+.theme-brand-design-management,
+a.theme-brand-design-management,
+a.theme-brand-design-management:hover {
+  background-color: $brand-design-management;
+  color: $white;
+}
+
+.theme-marketing-operationnel,
+a.theme-marketing-operationnel,
+a.theme-marketing-operationnel:hover {
+  background-color: $marketing-operationnel;
+  color: $white;
+}
+
+.theme-retail-merchandising,
+a.theme-retail-merchandising,
+a.theme-retail-merchandising:hover {
+  background-color: $retail-merchandising;
+  color: $white;
+}
+
+.theme-media-planning,
+a.theme-media-planning,
+a.theme-media-planning:hover {
+  background-color: $media-planning;
+  color: $white;
+}
