@@ -13,16 +13,16 @@
     <meta name="viewport" content="width=device-width">
 
     {% if styleguide %}
-      <link rel="stylesheet" href="/build/css/styleguide.css">
+      <link rel="stylesheet" href="/sawi-specialiste/build/css/styleguide.css">
     {% endif %}
 
-    <link rel="stylesheet" href="/build/css/main.css">
+    <link rel="stylesheet" href="/sawi-specialiste/build/css/main.css">
 
     <script src="https://use.typekit.net/tar2gdp.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     <!--[if lt IE 9]>
-      <script src="/build/js/polyfills.min.js"></script>
+      <script src="/sawi-specialiste/build/js/polyfills.min.js"></script>
     <![endif]-->
   </head>
   <body>
@@ -42,8 +42,8 @@
       </div>
 
     <script src="//code.jquery.com/jquery-2.2.4.min.js" crossorigin="anonymous"></script>
-    <script src="/build/js/vendors.min.js"></script>
-    <script src="/build/js/bundle.js"></script>
+    <script src="/sawi-specialiste/build/js/vendors.min.js"></script>
+    <script src="/sawi-specialiste/build/js/bundle.js"></script>
     {% endif %}
 
     {% if styleguide %}
@@ -56,7 +56,7 @@
           });
         }(jQuery));
       </script>
-      <script src="/build/js/styleguide.min.js"></script>
+      <script src="/sawi-specialiste/build/js/styleguide.min.js"></script>
     {% endif %}
 
     {% block javascripts %}{% endblock %}

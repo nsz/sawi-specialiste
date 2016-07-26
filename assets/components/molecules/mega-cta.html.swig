@@ -11,7 +11,7 @@ notes: |
   <div class="container">
     <p class="fixed-cta-container">
       <span class="fixed-cta-legend">Recevez le dossier complet par email</span>
-      <a href="#URL" class="btn btn-primary btn-lg">Intéressé ?</a>
+      <a href="https://confirmsubscription.com/h/r/3A944A659E9492E0" class="btn btn-primary btn-lg">Intéressé ?</a>
     </p>
   </div>
 </div>
