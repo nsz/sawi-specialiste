@@ -3,18 +3,8 @@
 {% block content %}
 <div class="row">
 <div class="col-sm-6">
-  <h2>Typography</h2>
-  <h1>H1 - Heading level 1 sur plusieurs ligne pour tester l'interlignage aussi</h1>
-  <h2>H2 - Heading level 2 sur plusieurs ligne pour tester l'interlignage aussi</h1>
-  <h3>H3 - Heading level 3 sur plusieurs ligne pour tester l'interlignage aussi</h1>
-  <h4>H4 - Heading level 4 sur plusieurs ligne pour tester l'interlignage aussi</h1>
-  <h5>H5 - Heading level 5 sur plusieurs ligne pour tester l'interlignage aussi</h1>
-  <h6>H6 - Heading level 6 sur plusieurs ligne pour tester l'interlignage aussi</h1>
-
-  <div class="spacer spacer-sm"></div>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sin laboramus, quis est, qui alienae modum statuat industriae? Nummus in Croesi divitiis obscuratur, pars est tamen divitiarum. Praeteritis, inquit, gaudeo. Vide, quantum, inquam, fallare, Torquate. Duo Reges: constructio interrete. Minime vero, inquit ille, consentit. Quod quidem nobis non saepe contingit.
-  </p>
+  {{contents|raw}}
+  
 </div>
 <div class="col-sm-6">
   <h2>Primary colors</h2>
