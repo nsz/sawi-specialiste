@@ -1,10 +1,10 @@
 @charset 'UTF-8';
 
-
 /**
  * Responsive Typography
  */
- * {
+
+* {
   -webkit-font-smoothing: antialiased;
 }
 
@@ -59,7 +59,6 @@ tr,
 }
 
 @media only screen and (max-width: $screen-md-max) {
-
   h1,
   .h1 {
     font-size: ceil($font-size-h1 * 0.8);
@@ -108,7 +107,6 @@ tr,
 }
 
 @media only screen and (max-width: $screen-sm-max) {
-
   h1,
   .h1 {
     font-size: ceil($font-size-h1 * 0.75);
@@ -158,7 +156,6 @@ tr,
 }
 
 @media only screen and (max-width: $screen-xs-max) {
-
   h1,
   .h1 {
     font-size: ceil($font-size-h1 * 0.7);
@@ -206,7 +203,6 @@ tr,
   .h2,
   h3,
   .h3 {
-
     small,
     .small {
       font-size: 65%;
@@ -219,7 +215,6 @@ tr,
   .h5,
   h6,
   .h6 {
-
     small,
     .small {
       font-size: 75%;
