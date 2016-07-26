@@ -13,14 +13,16 @@
     <meta name="viewport" content="width=device-width">
 
     
-      <link rel="stylesheet" href="/build/css/styleguide.css">
+      <link rel="stylesheet" href="/sawi-specialiste/build/css/styleguide.css">
     
 
-    <link rel="stylesheet" href="/build/css/vendors.min.css">
-    <link rel="stylesheet" href="/build/css/main.css">
+    <link rel="stylesheet" href="/sawi-specialiste/build/css/main.css">
+
+    <script src="https://use.typekit.net/tar2gdp.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     <!--[if lt IE 9]>
-      <script src="/build/js/polyfills.min.js"></script>
+      <script src="/sawi-specialiste/build/js/polyfills.min.js"></script>
     <![endif]-->
   </head>
   <body>
@@ -70,7 +72,7 @@
   <ul>
 
     <li>
-      <a href="/index.html" class="styleguide-menu-heading">Styleguide</a>
+      <a href="/sawi-specialiste/index.html" class="styleguide-menu-heading">Styleguide</a>
     </li>
 
     <!-- <li>
@@ -81,34 +83,62 @@
     </li> -->
 
     <li>
-      <a href="/atoms/" class="styleguide-menu-heading">Atoms</a>
+      <a href="/sawi-specialiste/atoms/" class="styleguide-menu-heading">Atoms</a>
       <ul>
         
           <li>
-            <a href="/atoms/#atom1">button</a>
+            <a href="/sawi-specialiste/atoms/#atom1">button</a>
           </li>
         
           <li>
-            <a href="/atoms/#atom2">button-link</a>
+            <a href="/sawi-specialiste/atoms/#atom2">button-link</a>
+          </li>
+        
+          <li>
+            <a href="/sawi-specialiste/atoms/#atom3">course-tile</a>
+          </li>
+        
+          <li>
+            <a href="/sawi-specialiste/atoms/#atom4">themify</a>
+          </li>
+        
+          <li>
+            <a href="/sawi-specialiste/atoms/#atom5">typography</a>
           </li>
         
       </ul>
     </li>
 
     <li>
-      <a href="/molecules/" class="styleguide-menu-heading">Molecules</a>
+      <a href="/sawi-specialiste/molecules/" class="styleguide-menu-heading">Molecules</a>
       <ul>
         
           <li>
-            <a href="/molecules/#molecule1">header</a>
+            <a href="/sawi-specialiste/molecules/#molecule1">header</a>
+          </li>
+        
+          <li>
+            <a href="/sawi-specialiste/molecules/#molecule2">jumbotron</a>
+          </li>
+        
+          <li>
+            <a href="/sawi-specialiste/molecules/#molecule3">mega-cta</a>
+          </li>
+        
+          <li>
+            <a href="/sawi-specialiste/molecules/#molecule4">tags</a>
           </li>
         
       </ul>
     </li>
 
     <li>
-      <a href="/organisms/" class="styleguide-menu-heading">Organisms</a>
+      <a href="/sawi-specialiste/organisms/" class="styleguide-menu-heading">Organisms</a>
       <ul>
+        
+          <li>
+            <a href="/sawi-specialiste/organisms/#organism1">cours-content</a>
+          </li>
         
       </ul>
     </li>
@@ -118,7 +148,23 @@
       <ul>
         
           <li>
-            <a href="/strategie-digitale">strategie-digitale</a>
+            <a href="/sawi-specialiste/brand-design-management">brand-design-management</a>
+          </li>
+        
+          <li>
+            <a href="/sawi-specialiste/marketing-operationnel">marketing-operationnel</a>
+          </li>
+        
+          <li>
+            <a href="/sawi-specialiste/media-planning">media-planning</a>
+          </li>
+        
+          <li>
+            <a href="/sawi-specialiste/retail-merchandising">retail-merchandising</a>
+          </li>
+        
+          <li>
+            <a href="/sawi-specialiste/strategie-digitale">strategie-digitale</a>
           </li>
         
       </ul>
@@ -176,20 +222,221 @@
 
   <div class="styleguide-item-notes" data-styleguide-toggle="notes">
     <h5 id="usage-header-">Usage : <code>header</code></h5>
+<h5 id="options-">Options :</h5>
+<ul>
+<li><strong>cours</strong> - object</li>
+</ul>
 
   </div>
   <div class="styleguide-item-preview">
     
 <header class="header">
-  <h1>This is a header !</h1>
+  <div class="container">
+    <div class="header-container">
+      <img src="/sawi-specialiste/build/img/logo.svg" alt="" class="header-logo" onerror="this.onerror=null; this.src='/sawi-specialiste/build/img/logo.png'" />
+      <h3 class="text-right header-title">
+          <a href="" target="_blank" class="header-link"><span class="hidden-xs">sawi</span>.com <img src="/sawi-specialiste/build/img/icon-external-link.svg" alt=""/></a>
+      </h3>
+    </div>
+  </div>
 </header>
 
   </div>
   <div class="styleguide-item-code styleguide-item-hidden" data-styleguide-toggle="code">
     <pre><code class="language-markup">
 <header class="header">
-  <h1>This is a header !</h1>
+  <div class="container">
+    <div class="header-container">
+      <img src="/sawi-specialiste/build/img/logo.svg" alt="" class="header-logo" onerror="this.onerror=null; this.src='/sawi-specialiste/build/img/logo.png'" />
+      <h3 class="text-right header-title">
+          <a href="" target="_blank" class="header-link"><span class="hidden-xs">sawi</span>.com <img src="/sawi-specialiste/build/img/icon-external-link.svg" alt=""/></a>
+      </h3>
+    </div>
+  </div>
 </header>
+</code></pre>
+  </div>
+
+</div>
+
+    
+      
+<div class="styleguide-item-group" id="molecule2">
+  <div class="styleguide-item-heading-group" data-styleguide-toggle="labels">
+    <h3 class="styleguide-item-heading">jumbotron</h3>
+    
+  <div class="styleguide-item-controls">
+    <span class="styleguide-control styleguide-icon" data-styleguide-toggle-control="notes" title="Toggle Notes">
+      <svg>
+        <use xlink:href="#styleguide-icon-notes" />
+      </svg>
+    </span>
+    <span class="styleguide-control styleguide-icon" data-styleguide-toggle-control="code" title="Toggle Code">
+      <svg>
+        <use xlink:href="#styleguide-icon-code" />
+      </svg>
+    </span>
+  </div>
+
+  </div>
+  
+
+  <div class="styleguide-item-notes" data-styleguide-toggle="notes">
+    <h5 id="usage-jumbotron-">Usage : <code>jumbotron</code></h5>
+<h5 id="options-">Options :</h5>
+<ul>
+<li><strong>cours</strong> - object</li>
+</ul>
+
+  </div>
+  <div class="styleguide-item-preview">
+    
+<div class="jumbotron-sawi ">
+  <div class="container">
+    <div class="jumbotron-sawi-container">
+      <div class="jumbotron-sawi-picture">
+        
+        <img src="/sawi-specialiste/build/img/cover-Strategie-Digitale.png" alt="" width="100%"/>
+        
+      </div>
+      <div class="jumbotron-sawi-intro">
+        <h1 class="jumbotron-sawi-h1">
+          This is a title
+        </h1>
+        <p class="jumbotron-sawi-p">
+          This is a subtitle
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+  <div class="styleguide-item-code styleguide-item-hidden" data-styleguide-toggle="code">
+    <pre><code class="language-markup">
+<div class="jumbotron-sawi ">
+  <div class="container">
+    <div class="jumbotron-sawi-container">
+      <div class="jumbotron-sawi-picture">
+        
+        <img src="/sawi-specialiste/build/img/cover-Strategie-Digitale.png" alt="" width="100%"/>
+        
+      </div>
+      <div class="jumbotron-sawi-intro">
+        <h1 class="jumbotron-sawi-h1">
+          This is a title
+        </h1>
+        <p class="jumbotron-sawi-p">
+          This is a subtitle
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</code></pre>
+  </div>
+
+</div>
+
+    
+      
+<div class="styleguide-item-group" id="molecule3">
+  <div class="styleguide-item-heading-group" data-styleguide-toggle="labels">
+    <h3 class="styleguide-item-heading">mega-cta</h3>
+    
+  <div class="styleguide-item-controls">
+    <span class="styleguide-control styleguide-icon" data-styleguide-toggle-control="notes" title="Toggle Notes">
+      <svg>
+        <use xlink:href="#styleguide-icon-notes" />
+      </svg>
+    </span>
+    <span class="styleguide-control styleguide-icon" data-styleguide-toggle-control="code" title="Toggle Code">
+      <svg>
+        <use xlink:href="#styleguide-icon-code" />
+      </svg>
+    </span>
+  </div>
+
+  </div>
+  
+
+  <div class="styleguide-item-notes" data-styleguide-toggle="notes">
+    <h5 id="usage-mega-cta-">Usage : <code>mega-cta</code></h5>
+<h5 id="options-">Options :</h5>
+<ul>
+<li><strong>url</strong> - string</li>
+</ul>
+
+  </div>
+  <div class="styleguide-item-preview">
+    
+<div class="fixed-cta">
+  <div class="container">
+    <p class="fixed-cta-container">
+      <span class="fixed-cta-legend">Recevez le dossier complet par email</span>
+      <a href="https://confirmsubscription.com/h/r/3A944A659E9492E0" class="btn btn-primary btn-lg">Intéressé ?</a>
+    </p>
+  </div>
+</div>
+
+  </div>
+  <div class="styleguide-item-code styleguide-item-hidden" data-styleguide-toggle="code">
+    <pre><code class="language-markup">
+<div class="fixed-cta">
+  <div class="container">
+    <p class="fixed-cta-container">
+      <span class="fixed-cta-legend">Recevez le dossier complet par email</span>
+      <a href="https://confirmsubscription.com/h/r/3A944A659E9492E0" class="btn btn-primary btn-lg">Intéressé ?</a>
+    </p>
+  </div>
+</div>
+</code></pre>
+  </div>
+
+</div>
+
+    
+      
+<div class="styleguide-item-group" id="molecule4">
+  <div class="styleguide-item-heading-group" data-styleguide-toggle="labels">
+    <h3 class="styleguide-item-heading">tags</h3>
+    
+  <div class="styleguide-item-controls">
+    <span class="styleguide-control styleguide-icon" data-styleguide-toggle-control="notes" title="Toggle Notes">
+      <svg>
+        <use xlink:href="#styleguide-icon-notes" />
+      </svg>
+    </span>
+    <span class="styleguide-control styleguide-icon" data-styleguide-toggle-control="code" title="Toggle Code">
+      <svg>
+        <use xlink:href="#styleguide-icon-code" />
+      </svg>
+    </span>
+  </div>
+
+  </div>
+  
+
+  <div class="styleguide-item-notes" data-styleguide-toggle="notes">
+    <h5 id="usage-tags-">Usage : <code>tags</code></h5>
+<h5 id="options-">Options :</h5>
+<ul>
+<li><strong>tag-label</strong> - string</li>
+</ul>
+
+  </div>
+  <div class="styleguide-item-preview">
+    
+<span class="label label-default">
+  Culture digitale &amp; e-marketing
+</span>
+
+  </div>
+  <div class="styleguide-item-code styleguide-item-hidden" data-styleguide-toggle="code">
+    <pre><code class="language-markup">
+<span class="label label-default">
+  Culture digitale &amp; e-marketing
+</span>
 </code></pre>
   </div>
 
@@ -203,11 +450,11 @@
 
     
       </div>
-    
 
     <script src="//code.jquery.com/jquery-2.2.4.min.js" crossorigin="anonymous"></script>
-    <script src="/build/js/vendors.min.js"></script>
-    <script src="/build/js/bundle.js"></script>
+    <script src="/sawi-specialiste/build/js/vendors.min.js"></script>
+    <script src="/sawi-specialiste/build/js/bundle.js"></script>
+    
 
     
       <script>
@@ -219,7 +466,7 @@
           });
         }(jQuery));
       </script>
-      <script src="/build/js/styleguide.min.js"></script>
+      <script src="/sawi-specialiste/build/js/styleguide.min.js"></script>
     
 
     
