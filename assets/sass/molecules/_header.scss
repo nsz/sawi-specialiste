@@ -30,6 +30,10 @@ h3.header-title {
   float: right;
   margin: 0 0 0 1em;
   padding: 0.5em 0;
-  min-width: 7em;
+  min-width: 7em; // fix flex issue
   line-height: 1em;
+
+  @media only screen and (max-width: $screen-xs-max) {
+    min-width: 4em;
+  }
 }
