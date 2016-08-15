@@ -13,16 +13,16 @@
     <meta name="viewport" content="width=device-width">
 
     {% if styleguide %}
-      <link rel="stylesheet" href="/sawi-specialiste/build/css/styleguide.css">
+      <link rel="stylesheet" href="/build/css/styleguide.css">
     {% endif %}
 
-    <link rel="stylesheet" href="/sawi-specialiste/build/css/main.css">
+    <link rel="stylesheet" href="/build/css/main.css">
 
     <script src="https://use.typekit.net/tar2gdp.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
     <!--[if lt IE 9]>
-      <script src="/sawi-specialiste/build/js/polyfills.min.js"></script>
+      <script src="/build/js/polyfills.min.js"></script>
     <![endif]-->
   </head>
   <body>
@@ -42,8 +42,8 @@
       </div>
 
     <script src="//code.jquery.com/jquery-2.2.4.min.js" crossorigin="anonymous"></script>
-    <script src="/sawi-specialiste/build/js/vendors.min.js"></script>
-    <script src="/sawi-specialiste/build/js/bundle.js"></script>
+    <script src="/build/js/vendors.min.js"></script>
+    <script src="/build/js/bundle.js"></script>
     {% endif %}
 
     {% if styleguide %}
@@ -56,7 +56,15 @@
           });
         }(jQuery));
       </script>
-      <script src="/sawi-specialiste/build/js/styleguide.min.js"></script>
+      <script src="/build/js/styleguide.min.js"></script>
+    {% endif %}
+    {% if !styleguide %}
+    <script>
+      window.intercomSettings = {
+        app_id: "k46x6m1d"
+      };
+    </script>
+    <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/k46x6m1d';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
     {% endif %}
 
     {% block javascripts %}{% endblock %}

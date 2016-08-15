@@ -14,7 +14,7 @@ notes: |
         {% if cours.illustration %}
         <img src="{{ cours.illustration }}" alt="" width="100%"/>
         {% else %}
-        <img src="/sawi-specialiste/build/img/cover-Strategie-Digitale.png" alt="" width="100%"/>
+        <img src="/build/img/cover-Strategie-Digitale.png" alt="" width="100%"/>
         {% endif %}
       </div>
       <div class="jumbotron-sawi-intro">
