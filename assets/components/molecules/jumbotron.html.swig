@@ -36,6 +36,7 @@ notes: |
           {% endif %}
           {% endspaceless %}
         </p>
+        {% include '../molecules/inline-cta.html.swig' with {cours: cours} %}
       </div>
     </div>
   </div>

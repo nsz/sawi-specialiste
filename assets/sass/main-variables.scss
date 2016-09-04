@@ -15,7 +15,7 @@ $white-alpha-80:         rgba(255, 255, 255, 0.8);
 $white-alpha-40:         rgba(255, 255, 255, 0.4);
 $white-alpha-0:          rgba(255, 255, 255, 0);
 
-$strategie-digital:           #ddd;
+$strategie-digital:           #eeeeee;
 $brand-design-management:     #ec6d71;
 $marketing-operationnel:      #9dbdbb;
 $retail-merchandising:        #8dafb7;
@@ -41,3 +41,7 @@ $label-default-bg:   $gray-lighter;
 $label-color:                 $gray-base !default;
 //** Default text color of a linked label
 $label-link-hover-color:      $gray-base !default;
+
+$state-info-text:                $white !default;
+$state-info-bg:                  $gray-base !default;
+$state-info-border:              $gray-base !default;
