@@ -9,8 +9,6 @@ layout: page.html.swig
 
 {% include '../molecules/header.html.swig'  with {cours: cours} %}
 
-{% include '../molecules/alert.html.swig' %}
-
 {% include '../molecules/jumbotron.html.swig' with {cours: cours} %}
 
 {% include '../organisms/cours-content.html.swig' with {cours: cours} %}

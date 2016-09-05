@@ -18,6 +18,15 @@ notes: |
       </h4>
     </div>
     <div class="col-sm-5">
+      <div class="well">
+        <h3>
+          <img src="/build/img/icon-chronometer.svg" onerror="this.onerror=null; this.src='/build/img/icon-chronometer.png'" class="inline-icon" />
+          Durée 6 mois
+        </h3>
+        <h4 class="fine-weight">
+          À partir du 21 septembre 2016
+        </h4>
+      </div>
       <h3>Thèmes abordés</h3>
       {% for theme in cours.themes %}
         <span class="label label-default">{{theme.item}}</span>

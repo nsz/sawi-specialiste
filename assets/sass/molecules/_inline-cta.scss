@@ -1,1 +1,11 @@
 @charset 'UTF-8';
+
+@media only screen and (min-width: $screen-sm-min) {
+  .inline-cta-container{
+    display: flex;
+    align-items: baseline;
+    a{
+      margin-right: 0.4em;
+    }
+  }
+}
